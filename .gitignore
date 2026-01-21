@@ -1,0 +1,21 @@
+# 忽略模型权重和缓存文件
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.npz
+ 
+# 忽略 tokenizer 和模型文件夹
+model/
+params/
+ 
+# 忽略数据集缓存
+data/ChnSentiCorp/
+data/Weibo/
+*.arrow
+*.csv
+*.json
+ 
+# 忽略 pycache
+__pycache__/
